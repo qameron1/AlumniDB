@@ -1,0 +1,25 @@
+Create TABLE alumni_table(
+    alumniID int,
+    fName char(10),
+    lName char(10),
+    email nchar(20),
+    phone char(12),
+    DOB date,
+    Gender char(1),
+    Ethnicity tinyint(1),
+    website char,
+    linkedin_link char,
+    twitter_link char,
+    facebook_link char,
+    instagram_link char,
+    guestSpeakerYN char(1),
+    newsLetterYN char(1),
+    imageThumb char,
+    imageNormal char,
+    alumni_desc char,
+    deceasedYN char(1),
+    deceasedDT date,
+    deceasedNotes char,
+
+    PRIMARY KEY (alumniID)
+);
