@@ -1,11 +1,13 @@
 CREATE TABLE degree_table(
-degreeID int PRIMARY KEY,
+degreeID int NOT NULL,
 alumniID int NOT NULL,
-major char(20),
+degree char(20) NOT NULL,
+major char(20) NOT NULL,
 minor char(20),
-graduationDT Date,
-university char(20),
-city char(20),
-state char(2),
+graduationDT Date NOT NULL,
+university char(20) NOT NULL,
+city char(20) NOT NULL,
+state char(2) NOT NULL,
+PRIMARY KEY(degreeID),
 FOREIGN KEY(alumniID) REFERENCES alumni_table(alumniID)
 );
