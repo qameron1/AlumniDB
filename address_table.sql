@@ -1,5 +1,5 @@
 CREATE TABLE address_table(
-addressID int,
+addressID int NOT NULL,
 alumniID int,
 address char(55),
 city char(30),
