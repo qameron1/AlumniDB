@@ -1,6 +1,6 @@
 CREATE TABLE degree_table(
 degreeID int PRIMARY KEY,
-alumniID int,
+alumniID int NOT NULL,
 major char(20),
 minor char(20),
 graduationDT Date,
