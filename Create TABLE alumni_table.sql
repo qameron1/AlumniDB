@@ -1,4 +1,4 @@
-Create TABLE alumni_table(
+Create TABLE alumni(
     alumniID int UNIQUE NOT NULL,
     fName varchar(45) NOT NULL,
     lName varchar(45) NOT NULL,

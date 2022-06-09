@@ -1,13 +1,13 @@
 CREATE TABLE address_table(
 addressID int UNIQUE NOT NULL,
 alumniID int NOT NULL,
-streetAdd char(55),
-city char(30),
-stateAdd char(2),
+streetAdd varchar(55),
+city varchar(30),
+stateAdd varchar(2),
 zip int(5),
-addressType char(10),
-activeYN char(1),
-primaryYN char(1),
+addressType varchar(10),
+activeYN varchar(1),
+primaryYN varchar(1),
 PRIMARY KEY (addressID),
-FOREIGN KEY(alumniID) REFERENCES alumni_table(alumniID)
+FOREIGN KEY(alumniID) REFERENCES alumni(alumniID)
 );
