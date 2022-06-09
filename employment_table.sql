@@ -1,9 +1,9 @@
 Create TABLE alumni_table(
-    employmentID int NOT NULL,
+    employmentID int UNIQUE NOT NULL,
     alumniID int NOT NULL,
     company char(50) NOT NULL,
     city char(30),
-    state char(2),
+    stateAdd char(2),
     zip char(5),
     startDate date NOT NULL,
     endDate date,
