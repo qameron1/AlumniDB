@@ -1,4 +1,4 @@
-Create TABLE alumni(
+Create TABLE alumni_table(
     alumniID int UNIQUE NOT NULL,
     fName varchar(45) NOT NULL,
     lName varchar(45) NOT NULL,
@@ -11,7 +11,7 @@ Create TABLE alumni(
     linkedin_Link varchar(50),
     twitterLlink varchar(50),
     facebookLink varchar(50),
-    instagramLink varchar(50)
+    instagramLink varchar(50),
     guestSpeakerYN varchar(1)NOT NULL,
     newsLetterYN char(1)NOT NULL,
     imageThumb varchar(50),

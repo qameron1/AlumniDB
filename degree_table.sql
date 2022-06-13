@@ -9,5 +9,5 @@ university varchar(45) NOT NULL,
 city varchar(20) NOT NULL,
 stateAdd varchar(2) NOT NULL,
 PRIMARY KEY(degreeID),
-FOREIGN KEY(alumniID) REFERENCES alumni(alumniID)
+FOREIGN KEY(alumniID) REFERENCES alumni_table(alumniID)
 );

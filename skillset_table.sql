@@ -5,5 +5,5 @@ skill varchar(45) NOT NULL,
 proficiency varchar(45) NOT NULL,
 skillDesc varchar(55),
 PRIMARY KEY (skillsetID),
-FOREIGN KEY(alumniID) REFERENCES alumni(alumniID)
+FOREIGN KEY(alumniID) REFERENCES alumni_table(alumniID)
 );

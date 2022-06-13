@@ -9,5 +9,5 @@ addressType varchar(10),
 activeYN varchar(1),
 primaryYN varchar(1),
 PRIMARY KEY (addressID),
-FOREIGN KEY(alumniID) REFERENCES alumni(alumniID)
+FOREIGN KEY(alumniID) REFERENCES alumni_table(alumniID)
 );

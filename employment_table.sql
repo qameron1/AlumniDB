@@ -11,5 +11,5 @@ Create TABLE employment_table(
     currentYN varchar(1) NOT NULL,
     notes varchar(50),
     PRIMARY KEY (employmentID),
-    FOREIGN KEY(alumniID) REFERENCES alumni(alumniID)
+    FOREIGN KEY(alumniID) REFERENCES alumni_table(alumniID)
 );
