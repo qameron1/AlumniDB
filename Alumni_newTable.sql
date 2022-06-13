@@ -1,4 +1,4 @@
-CREATE TABLE alumi_NewTable(
+CREATE TABLE alumi_News(
 newsID int UNIQUE NOT NULL,
 alumniID int NOT NULL,
 rptDate date NOT NULL,
