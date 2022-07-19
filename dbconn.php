@@ -1,13 +1,14 @@
 <?php
-$servername = "localhost";
-$username = "ksuissd.org";
-$password = "Let$c0detheweb!";
-$erroemMsg ="0"
+$servername = "localhost:3306";
+$username = "ksuissdo_alumnidb";
+$password = "TEsTPassW0rd";
+$database = "ksuissdo_alumniDB";
+$errorMsg ="";
 
 
-  $dbconn = new mysqli($servername, $username, $password);
+  $dbconn = new mysqli($servername, $username, $password,$database);
   //check connection
-  if($conn->connect_error){
-		$errorMsg = "9";
-  }else echo "Connected";
+  if($dbconn->connect_error){
+		$errorMsg = "DBCONNECTION ERROR";
+  }else $errorMsg = "no connection error" ;
 ?>
