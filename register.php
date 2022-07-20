@@ -1,6 +1,10 @@
 <!doctype html>
 <html>
-<head>
+	<?php
+session_start();
+include 'dbconn.php';
+include 'function.php'
+	?><head>
 <meta charset="utf-8">
 <!-- TemplateBeginEditable name="doctitle" -->
 <title>Kennesaw State Alumni Page</title>
