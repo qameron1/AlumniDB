@@ -7,7 +7,7 @@ include 'function.php'
 	?><head>
 <meta charset="utf-8">
 <!-- TemplateBeginEditable name="doctitle" -->
-<title>Kennesaw State Alumni Page</title>
+<title>Kennesaw State Alumni Registry Page</title>
 <!-- TemplateEndEditable -->
 <link href="../alumni webpage.css"	rel= stylesheet type="text/css">
 <!-- TemplateBeginEditable name="head" -->
